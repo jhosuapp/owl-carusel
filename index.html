@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/owlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owlCarousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img src="images/americadigital_Perrito_ladron_se_llevo_un_paquete_de_un_supermercado_2020-1140x570.jpg" alt=""></div>
+        <div class="item"><img src="images/americadigital_Perrito_ladron_se_llevo_un_paquete_de_un_supermercado_2020-1140x570.jpg" alt=""></div>
+        <div class="item"><img src="images/americadigital_Perrito_ladron_se_llevo_un_paquete_de_un_supermercado_2020-1140x570.jpg" alt=""></div>
+        <div class="item"><img src="images/americadigital_Perrito_ladron_se_llevo_un_paquete_de_un_supermercado_2020-1140x570.jpg" alt=""></div>
+        <div class="item"><img src="images/americadigital_Perrito_ladron_se_llevo_un_paquete_de_un_supermercado_2020-1140x570.jpg" alt=""></div>
+    </div>
+
+    <div class="owl-carousel owl-carousel__items owl-theme">
+        <div class="item"><img src="images/americadigital_Perrito_ladron_se_llevo_un_paquete_de_un_supermercado_2020-1140x570.jpg" alt=""></div>
+        <div class="item"><img src="images/americadigital_Perrito_ladron_se_llevo_un_paquete_de_un_supermercado_2020-1140x570.jpg" alt=""></div>
+        <div class="item"><img src="images/americadigital_Perrito_ladron_se_llevo_un_paquete_de_un_supermercado_2020-1140x570.jpg" alt=""></div>
+        <div class="item"><img src="images/americadigital_Perrito_ladron_se_llevo_un_paquete_de_un_supermercado_2020-1140x570.jpg" alt=""></div>
+        <div class="item"><img src="images/americadigital_Perrito_ladron_se_llevo_un_paquete_de_un_supermercado_2020-1140x570.jpg" alt=""></div>
+    </div>
+
+    
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/owlCarousel/dist/owl.carousel.js"></script>
+    <script type="text/javascript">
+                $(document).ready(function(){
+
+                $(".owl-carousel__items").owlCarousel({
+                    items : 2, //NUMERO DE ITEMS
+                    // loop: true, // HACE AL CAROUSEL INFINITO
+                    margin: 10, //MARGEN ENTRE ELEMENTOS
+                    nav: true, //AGREGAR FLECHITAS
+                    // navText: ["anterior", "siguiente"], //CAMBIAR TEXTO DEL SIGUIENTE Y ANTERIOR
+                    autoplay: true, //AGREGAR AUTOPLAY
+                    autoplayTimeout: 10000, //TIEMPO DEL AUTOPLAY
+                    dots: true, //PARA OCULTAR O MOSTRAR LOS DOTS
+                    responsive: { //RESPONSIVE
+                        0:{
+                            items: 1
+                        },
+                        360:{
+                            items: 2
+                        },
+                        1000: {
+                            items: 2
+                        }
+                    }
+                });
+
+                });
+        $(document).ready(function(){
+
+            $(".owl-carousel").owlCarousel({
+                items : 4, //NUMERO DE ITEMS
+                // loop: true, // HACE AL CAROUSEL INFINITO
+                margin: 10, //MARGEN ENTRE ELEMENTOS
+                nav: true, //AGREGAR FLECHITAS
+                // navText: ["anterior", "siguiente"], //CAMBIAR TEXTO DEL SIGUIENTE Y ANTERIOR
+                autoplay: true, //AGREGAR AUTOPLAY
+                autoplayTimeout: 10000, //TIEMPO DEL AUTOPLAY
+                dots: true, //PARA OCULTAR O MOSTRAR LOS DOTS
+                responsive: { //RESPONSIVE
+                    0:{
+                        items: 1
+                    },
+                    360:{
+                        items: 3
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+             });
+
+        });
+        
+
+    </script>
+</body>
+</html>
