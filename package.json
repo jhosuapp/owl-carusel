@@ -1,0 +1,22 @@
+{
+  "name": "owl-carusel",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "sass": "sass --watch ./sources/scss/main.scss ./sources/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhosuapp/owl-carusel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhosuapp/owl-carusel/issues"
+  },
+  "homepage": "https://github.com/jhosuapp/owl-carusel#readme"
+}

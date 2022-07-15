@@ -1,0 +1,35 @@
+.owl-carousel{
+    .owl-nav button span{
+        display: none;
+    }
+}
+
+//OWL NAV DEFAULT
+
+.owl-carousel__nav-active{
+    &__left,
+    &__right{
+        width: 20px;
+    }
+}
+
+//OWL DOT DEFAULT
+
+.owl-carousel__dots-active{
+    .owl-dot{
+        width: 15px;
+        height: 15px;
+        background-color: rgba(0, 0, 0, .55) !important;
+        border-radius: 100px;
+        margin-right: 5px;
+        &:last-child{
+            margin-right: 0;
+        }
+        &.active{
+            background-color: #000 !important;
+        }
+    }
+}
+
+
+
